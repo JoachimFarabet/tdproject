@@ -102,7 +102,7 @@ const Index = () => {
 
   return (
     <div>
-      <div className="sticky top-0 bg-white border-b">
+      <div className="sticky top-0 bg-white">
         <div className="py-4 flex items-center text-sm overflow-x-auto">
           {lists.map((l) => (
             <button

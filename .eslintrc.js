@@ -6,7 +6,7 @@ module.exports = {
     "next",
     "plugin:react/recommended",
   ],
-  plugins: ["react", "react-hooks"],
+  plugins: ["react", "react-hooks", "prettier"],
   env: {
     es2022: true,
     node: true,
@@ -72,6 +72,7 @@ module.exports = {
     "react/no-unescaped-entities": ["error", { forbid: [">", "}"] }],
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
+    "prettier/prettier": "error",
   },
   settings: { react: { version: "detect" } },
 }
